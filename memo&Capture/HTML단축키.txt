@@ -1,0 +1,10 @@
+단축키
+
+div#** = div + id(**)
+div.** = div + class(**)
+div>tag명 = 자식 tag 만들기
+ul>li*5>a&
+
+css주석처리 = ctrl+shift
+
+alt z = 긴줄 세로 정열

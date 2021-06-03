@@ -1,0 +1,11 @@
+===== 오라클 설정 =====
+
+
+데이터베이스 접속 >> 감지된 데이터베이스 >> ORCL 선택
+
+>> 오른쪽에 ORCL 속성 선택 >> Name : Scott User
+
+>> id : scott, pw : tiger >> 테스트 >> 저장 후 접속
+
+>> Scott User 내 테이블(필터링내) 에 4개 있어야함(bonus,dept,emp,salgrade)
+

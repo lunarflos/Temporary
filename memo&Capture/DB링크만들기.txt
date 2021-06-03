@@ -1,0 +1,12 @@
+1. 리모트DB 접속 정보 설정
+	tnsnames.ora 에 추가
+경로: (ex) C:\app\SHY-702-15\product\11.2.0\dbhome_1\NETWORK\ADMIN
+
+2. scott 유저에게 데이터베이스 링크 권한부여
+
+3. 데이터베이스 링크 만들기
+create public database link MX_CON_DB
+connect to scott identified by tiger
+using 'MX_ORCL';
+
+select * from emp@MX_CON_DB; << 되는지 확인해보기
